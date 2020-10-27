@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cf7455e2-d0f6-427c-b8c7-08b42f3c31d9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/layout/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/layout/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/layout/Navegacion.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/layout/Navegacion.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/firebase/firebase.js" beforeDir="false" afterPath="$PROJECT_DIR$/firebase/firebase.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/_app.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/_app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/crear-cuenta.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/crear-cuenta.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/login.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,7 +29,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../publicidad-baradero" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
@@ -42,7 +45,8 @@
       <updated>1603735630863</updated>
       <workItem from="1603735632328" duration="394000" />
       <workItem from="1603736277271" duration="17005000" />
-      <workItem from="1603816188089" duration="4225000" />
+      <workItem from="1603816188089" duration="6225000" />
+      <workItem from="1603830854318" duration="5587000" />
     </task>
     <task id="LOCAL-00001" summary="Creación de proyecto y css">
       <created>1603749923322</created>
@@ -51,7 +55,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603749923322</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Integración de firebase">
+      <created>1603828269364</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1603828269365</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -59,24 +70,25 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Creación de proyecto y css" />
-    <option name="LAST_COMMIT_MESSAGE" value="Creación de proyecto y css" />
+    <MESSAGE value="Integración de firebase" />
+    <option name="LAST_COMMIT_MESSAGE" value="Integración de firebase" />
   </component>
   <component name="WindowStateProjectService">
     <state x="324" y="193" width="780" height="480" key="#Notifications" timestamp="1603825697902">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="324" y="193" width="780" height="480" key="#Notifications/1600.50.1366.728/0.0.1600.860@0.0.1600.860" timestamp="1603825697902" />
-    <state x="425" y="0" key="CommitChangelistDialog2" timestamp="1603749922094">
+    <state x="425" y="0" key="CommitChangelistDialog2" timestamp="1603828268539">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="425" y="0" key="CommitChangelistDialog2/1600.50.1366.728/0.0.1600.860@0.0.1600.860" timestamp="1603749922094" />
-    <state x="580" y="185" key="FileChooserDialogImpl" timestamp="1603736023851">
+    <state x="425" y="0" key="CommitChangelistDialog2/1600.50.1366.728/0.0.1600.860@0.0.1600.860" timestamp="1603828268539" />
+    <state x="580" y="185" key="FileChooserDialogImpl" timestamp="1603839262534">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="580" y="185" key="FileChooserDialogImpl/1600.50.1366.728/0.0.1600.860@0.0.1600.860" timestamp="1603736023851" />
-    <state x="301" y="75" key="SettingsEditor" timestamp="1603739405238">
+    <state x="580" y="185" key="FileChooserDialogImpl/1600.50.1366.728/0.0.1600.860@0.0.1600.860" timestamp="1603839262534" />
+    <state x="387" y="73" key="SettingsEditor" timestamp="1603830827883">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="301" y="75" key="SettingsEditor/1600.50.1366.728/0.0.1600.860@0.0.1600.860" timestamp="1603739405238" />
+    <state x="387" y="73" key="SettingsEditor/1600.50.1366.728/0.0.1600.860@0.0.1600.860" timestamp="1603830827883" />
   </component>
 </project>
