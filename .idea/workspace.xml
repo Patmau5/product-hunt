@@ -3,15 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="cf7455e2-d0f6-427c-b8c7-08b42f3c31d9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/layout/Layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/layout/Layout.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/ui/Boton.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/ui/Boton.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/ui/Formulario.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/ui/Formulario.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/firebase/firebase.js" beforeDir="false" afterPath="$PROJECT_DIR$/firebase/firebase.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/nuevo-producto.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/nuevo-producto.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/populares.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/populares.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/ui/Buscar.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/ui/Buscar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/buscar.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/buscar.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +49,7 @@
       <workItem from="1603816188089" duration="6225000" />
       <workItem from="1603830854318" duration="8597000" />
       <workItem from="1603904309921" duration="12994000" />
-      <workItem from="1603984653118" duration="10909000" />
+      <workItem from="1603984653118" duration="12229000" />
     </task>
     <task id="LOCAL-00001" summary="Creación de proyecto y css">
       <created>1603749923322</created>
@@ -79,7 +72,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603840613256</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Router dinámico">
+      <created>1604006042983</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1604006042983</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -89,17 +89,18 @@
     <MESSAGE value="Creación de proyecto y css" />
     <MESSAGE value="Integración de firebase" />
     <MESSAGE value="Inicio y cierre de sesión" />
-    <option name="LAST_COMMIT_MESSAGE" value="Inicio y cierre de sesión" />
+    <MESSAGE value="Router dinámico" />
+    <option name="LAST_COMMIT_MESSAGE" value="Router dinámico" />
   </component>
   <component name="WindowStateProjectService">
     <state x="324" y="193" width="780" height="480" key="#Notifications" timestamp="1603825697902">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="324" y="193" width="780" height="480" key="#Notifications/1600.50.1366.728/0.0.1600.860@0.0.1600.860" timestamp="1603825697902" />
-    <state x="425" y="0" key="CommitChangelistDialog2" timestamp="1603840612404">
+    <state x="425" y="0" key="CommitChangelistDialog2" timestamp="1604006041888">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="425" y="0" key="CommitChangelistDialog2/1600.50.1366.728/0.0.1600.860@0.0.1600.860" timestamp="1603840612404" />
+    <state x="425" y="0" key="CommitChangelistDialog2/1600.50.1366.728/0.0.1600.860@0.0.1600.860" timestamp="1604006041888" />
     <state x="580" y="185" key="FileChooserDialogImpl" timestamp="1603839262534">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
