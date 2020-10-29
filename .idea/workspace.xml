@@ -3,12 +3,15 @@
   <component name="ChangeListManager">
     <list default="true" id="cf7455e2-d0f6-427c-b8c7-08b42f3c31d9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/layout/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/layout/Header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/layout/Navegacion.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/layout/Navegacion.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/layout/Layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/layout/Layout.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/ui/Boton.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/ui/Boton.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/ui/Formulario.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/ui/Formulario.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/firebase/firebase.js" beforeDir="false" afterPath="$PROJECT_DIR$/firebase/firebase.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/_app.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/_app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/crear-cuenta.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/crear-cuenta.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/login.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/nuevo-producto.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/nuevo-producto.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/populares.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/populares.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +19,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1jQU6AQrQp0WcRUbr2KyZyNlWjY" />
@@ -46,7 +54,9 @@
       <workItem from="1603735632328" duration="394000" />
       <workItem from="1603736277271" duration="17005000" />
       <workItem from="1603816188089" duration="6225000" />
-      <workItem from="1603830854318" duration="5587000" />
+      <workItem from="1603830854318" duration="8597000" />
+      <workItem from="1603904309921" duration="12994000" />
+      <workItem from="1603984653118" duration="10909000" />
     </task>
     <task id="LOCAL-00001" summary="Creación de proyecto y css">
       <created>1603749923322</created>
@@ -62,7 +72,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603828269365</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Inicio y cierre de sesión">
+      <created>1603840613255</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1603840613256</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -71,24 +88,45 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Creación de proyecto y css" />
     <MESSAGE value="Integración de firebase" />
-    <option name="LAST_COMMIT_MESSAGE" value="Integración de firebase" />
+    <MESSAGE value="Inicio y cierre de sesión" />
+    <option name="LAST_COMMIT_MESSAGE" value="Inicio y cierre de sesión" />
   </component>
   <component name="WindowStateProjectService">
     <state x="324" y="193" width="780" height="480" key="#Notifications" timestamp="1603825697902">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="324" y="193" width="780" height="480" key="#Notifications/1600.50.1366.728/0.0.1600.860@0.0.1600.860" timestamp="1603825697902" />
-    <state x="425" y="0" key="CommitChangelistDialog2" timestamp="1603828268539">
+    <state x="425" y="0" key="CommitChangelistDialog2" timestamp="1603840612404">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="425" y="0" key="CommitChangelistDialog2/1600.50.1366.728/0.0.1600.860@0.0.1600.860" timestamp="1603828268539" />
+    <state x="425" y="0" key="CommitChangelistDialog2/1600.50.1366.728/0.0.1600.860@0.0.1600.860" timestamp="1603840612404" />
     <state x="580" y="185" key="FileChooserDialogImpl" timestamp="1603839262534">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="580" y="185" key="FileChooserDialogImpl/1600.50.1366.728/0.0.1600.860@0.0.1600.860" timestamp="1603839262534" />
-    <state x="387" y="73" key="SettingsEditor" timestamp="1603830827883">
+    <state x="387" y="73" key="SettingsEditor" timestamp="1603915552510">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="387" y="73" key="SettingsEditor/1600.50.1366.728/0.0.1600.860@0.0.1600.860" timestamp="1603830827883" />
+    <state x="387" y="73" key="SettingsEditor/1600.50.1366.728/0.0.1600.860@0.0.1600.860" timestamp="1603915552510" />
+    <state x="392" y="163" key="Vcs.Push.Dialog.v2" timestamp="1603841177862">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="392" y="163" key="Vcs.Push.Dialog.v2/1600.50.1366.728/0.0.1600.860@0.0.1600.860" timestamp="1603841177862" />
+    <state x="507" y="163" width="585" height="534" key="find.popup" timestamp="1603914263897">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="507" y="163" width="585" height="534" key="find.popup/1600.50.1366.728/0.0.1600.860@0.0.1600.860" timestamp="1603914263897" />
+    <state x="558" y="218" key="git4idea.merge.GitMergeDialog" timestamp="1603841167566">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="558" y="218" key="git4idea.merge.GitMergeDialog/1600.50.1366.728/0.0.1600.860@0.0.1600.860" timestamp="1603841167566" />
+    <state x="601" y="336" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1603841070597">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="601" y="336" key="git4idea.remote.GitConfigureRemotesDialog/1600.50.1366.728/0.0.1600.860@0.0.1600.860" timestamp="1603841070597" />
+    <state x="884" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1603920366918">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="884" y="181" width="672" height="678" key="search.everywhere.popup/1600.50.1366.728/0.0.1600.860@0.0.1600.860" timestamp="1603920366918" />
   </component>
 </project>

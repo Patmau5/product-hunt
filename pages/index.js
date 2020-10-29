@@ -1,12 +1,29 @@
 import React from 'react';
 import Layout from "../components/layout/Layout";
+import DetallesProducto from "../components/layout/DetalleProducto";
+import useProductos from "../hooks/useProductos";
 
 export default function Home() {
-  return (
-      <div>
-          <Layout>
-              <h1>Inicio</h1>
-          </Layout>
-      </div>
-  )
+
+    const { productos } = useProductos('creado')
+
+    return (
+        <div>
+            <Layout>
+                <div className="listado-productos">
+                    <div className="contenedor">
+                        <ul className="bg-white">
+                            {productos.map(producto => (
+                                <DetallesProducto
+                                    key={producto.id}
+                                    id={producto.id}
+                                    producto={producto}
+                                />
+                            ))}
+                        </ul>
+                    </div>
+                </div>
+            </Layout>
+        </div>
+    )
 }
